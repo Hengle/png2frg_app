@@ -1,10 +1,13 @@
 png2frg_app
 ===========
 
-png<-->frg image file conversion demo app.   
+png<-->frg v1.1.3 image file conversion demo app.   
   
-  parameter: srcPngFileName dstFrgFileName (0.0--100.0] [0.0--100.0]  
-         or: srcFrgFileName dstPngFileName  
+    parameter: <srcPngFileName> <dstFrgFileName>
+      //default as:<srcPngFileName> <dstFrgFileName> 80 50
+    parameter: <srcPngFileName> <dstFrgFileName> <quality(0.0--100.0]> <compressSize[0.0--100.0]>
+    parameter: <srcFrgFileName> <dstPngFileName>
   
-FRG is an image format(like PNG or JPG etc.),for saving time loading from disk and decoding to display;  
-libfrg: https://github.com/sisong/libfrg  
+FRG is an image format(like PNG or JPG etc.),for optimize load image time(loading from disk and decoding). It supports 32-bit ARGB color image.
+  
+libfrg: [https://github.com/sisong/libfrg](https://github.com/sisong/libfrg)  
