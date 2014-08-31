@@ -1,7 +1,7 @@
 png2frg_app
 ===========
 
-png<-->frg v1.1.3 image file conversion demo app.   
+png<-->frg v1.3.0 image file conversion demo app.   
   
     parameter: <srcPngFileName> <dstFrgFileName>
       //default as:<srcPngFileName> <dstFrgFileName> 80 50
